@@ -22,6 +22,11 @@
 		B97D88BC17F12DD300268ED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97D889B17F12DD200268ED6 /* UIKit.framework */; };
 		B97D88C417F12DD300268ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B97D88C217F12DD300268ED6 /* InfoPlist.strings */; };
 		B97D88C617F12DD300268ED6 /* HW2_ZooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D88C517F12DD300268ED6 /* HW2_ZooTests.m */; };
+		B97D88D117F12E1F00268ED6 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = B97D88D017F12E1F00268ED6 /* Animal.m */; };
+		B97D88D717F12E9C00268ED6 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = B97D88D317F12E9C00268ED6 /* elephant.png */; };
+		B97D88D817F12E9C00268ED6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B97D88D417F12E9C00268ED6 /* Icon.png */; };
+		B97D88D917F12E9C00268ED6 /* panda.png in Resources */ = {isa = PBXBuildFile; fileRef = B97D88D517F12E9C00268ED6 /* panda.png */; };
+		B97D88DA17F12E9C00268ED6 /* tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = B97D88D617F12E9C00268ED6 /* tiger.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,12 @@
 		B97D88C117F12DD300268ED6 /* HW2_ZooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW2_ZooTests-Info.plist"; sourceTree = "<group>"; };
 		B97D88C317F12DD300268ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B97D88C517F12DD300268ED6 /* HW2_ZooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW2_ZooTests.m; sourceTree = "<group>"; };
+		B97D88CF17F12E1F00268ED6 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		B97D88D017F12E1F00268ED6 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		B97D88D317F12E9C00268ED6 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		B97D88D417F12E9C00268ED6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B97D88D517F12E9C00268ED6 /* panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda.png; sourceTree = "<group>"; };
+		B97D88D617F12E9C00268ED6 /* tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiger.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +95,7 @@
 		B97D888B17F12DD200268ED6 = {
 			isa = PBXGroup;
 			children = (
+				B97D88D217F12E8900268ED6 /* Image */,
 				B97D889D17F12DD200268ED6 /* HW2_Zoo */,
 				B97D88BF17F12DD300268ED6 /* HW2_ZooTests */,
 				B97D889617F12DD200268ED6 /* Frameworks */,
@@ -118,6 +130,8 @@
 				B97D88A717F12DD200268ED6 /* AppDelegate.m */,
 				B97D88A917F12DD200268ED6 /* Main_iPhone.storyboard */,
 				B97D88AC17F12DD200268ED6 /* Main_iPad.storyboard */,
+				B97D88CF17F12E1F00268ED6 /* Animal.h */,
+				B97D88D017F12E1F00268ED6 /* Animal.m */,
 				B97D88AF17F12DD200268ED6 /* ViewController.h */,
 				B97D88B017F12DD200268ED6 /* ViewController.m */,
 				B97D88B217F12DD200268ED6 /* Images.xcassets */,
@@ -153,6 +167,17 @@
 				B97D88C217F12DD300268ED6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B97D88D217F12E8900268ED6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B97D88D317F12E9C00268ED6 /* elephant.png */,
+				B97D88D417F12E9C00268ED6 /* Icon.png */,
+				B97D88D517F12E9C00268ED6 /* panda.png */,
+				B97D88D617F12E9C00268ED6 /* tiger.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +256,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B97D88D917F12E9C00268ED6 /* panda.png in Resources */,
+				B97D88D817F12E9C00268ED6 /* Icon.png in Resources */,
 				B97D88AE17F12DD200268ED6 /* Main_iPad.storyboard in Resources */,
+				B97D88D717F12E9C00268ED6 /* elephant.png in Resources */,
 				B97D88B317F12DD200268ED6 /* Images.xcassets in Resources */,
 				B97D88AB17F12DD200268ED6 /* Main_iPhone.storyboard in Resources */,
 				B97D88A217F12DD200268ED6 /* InfoPlist.strings in Resources */,
+				B97D88DA17F12E9C00268ED6 /* tiger.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B97D88B117F12DD200268ED6 /* ViewController.m in Sources */,
+				B97D88D117F12E1F00268ED6 /* Animal.m in Sources */,
 				B97D88A817F12DD200268ED6 /* AppDelegate.m in Sources */,
 				B97D88A417F12DD200268ED6 /* main.m in Sources */,
 			);
@@ -346,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

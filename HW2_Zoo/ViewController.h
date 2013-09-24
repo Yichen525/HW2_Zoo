@@ -10,4 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property NSMutableArray *animals;
+
+@property UIView *mainView;
+
+@property UIScrollView *scroll;
+
+@property UILabel *animalName;
+
+@property UILabel *note;
+
 @end
